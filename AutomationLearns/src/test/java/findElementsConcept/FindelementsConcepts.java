@@ -33,9 +33,11 @@ public class FindelementsConcepts {
 		
 		System.out.println(linklist.size());
 		
+		//341 (1,2,3,4,5....341) -- List (linklist)
 		for(int i=0;i<linklist.size();i++) {
 			String linktext = linklist.get(i).getText();
 			System.out.println(linktext);
 		}
+		
 	}
 }
